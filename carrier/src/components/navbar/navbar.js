@@ -11,7 +11,7 @@ class Navbar extends Component {
     componentDidMount = () => { this.props.$(".button-collapse").sideNav() }
     render() {
         return (
-            <div>
+            <div className="navbar-fixed">
                 <nav>
                     <div className="nav-wrapper light-blue lighten-3">
                         <Link to={`${this.state.match.url}/`} className="left brand-logo">LOGO</Link>
