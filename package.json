@@ -1,0 +1,20 @@
+{
+  "name": "carrier",
+  "version": "1.0.0",
+  "description": "React routing single page application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosestrada22/carrier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosestrada22/carrier/issues"
+  },
+  "homepage": "https://github.com/carlosestrada22/carrier#readme"
+}
