@@ -13,7 +13,7 @@ class Navbar extends Component {
         return (
             <div className="navbar-fixed">
                 <nav>
-                    <div className="nav-wrapper light-blue lighten-3">
+                    <div className="nav-wrapper white black-text">
                         <Link to={`${this.state.match.url}/`} className="left brand-logo">LOGO</Link>
                         <a href="#!" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down">
