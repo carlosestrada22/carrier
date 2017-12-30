@@ -14,12 +14,10 @@ class Footer extends Component {
                                 <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
                             </div>
                             <div className="col l4 offset-l2 s12">
-                                <h5 className="white-text">Links</h5>
-                                <ul>
-                                    <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                                    <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                                    <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                                    <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                                <h5 className="white-text">Follow us!</h5>
+                                <ul className="follow-us-icons">
+                                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" width="50" alt="fb" /></li>
+                                    <li><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1259px-Twitter_Bird.svg.png" width="50" alt="fb" /></li>
                                 </ul>
                             </div>
                         </div>

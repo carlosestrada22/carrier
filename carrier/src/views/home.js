@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+
 import Slider from "../components/slider/slider.js";
+import Banner from '../components/banner/banner.js'
 
 class Home extends Component {
     state = {  }
@@ -7,6 +9,7 @@ class Home extends Component {
         return (
             <div>
                 <Slider />
+                <Banner />
             </div>
         );
     }

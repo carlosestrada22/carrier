@@ -1,4 +1,8 @@
-.navbar>ul>li {
-    color: #FFFFFF;
-    background: #0097A7;
+.navbar ul a {
+    color: #424242 !important;
+    background: transparent;
+
 }
+/* .navbar> ul> li :hover{
+    border-bottom: 4px solid #FFC107;;
+} */
