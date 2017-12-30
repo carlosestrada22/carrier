@@ -18,7 +18,7 @@ import Packages from './views/packages.js'
 import PublicSector from './views/public-sector.js'
 import Home from './views/home.js';
 
-
+import FixedButton from './components/fixed-button/fixed-button.js'
 import Navbar from './components/navbar/navbar.js'
 import Footer from './components/footer/footer.js'
 import $ from 'jquery'
@@ -40,6 +40,7 @@ class App extends Component {
               <Route path="/packages" component={Packages} />
               <Route path="/public-sector" component={PublicSector} />
             </div>
+            <FixedButton />
             <Footer />
           </div>
         </Router>
