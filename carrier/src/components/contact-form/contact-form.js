@@ -30,7 +30,7 @@ const ContactForm = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col s4 offset-s8">
+                <div className="col s12 m12">
                     <button id="btn-enviar" className="btn-enviar btn btn-large waves-effect waves-light dark-primary-color ">Enviar
                                 <i class="material-icons right">send</i>
                     </button>
