@@ -15,9 +15,9 @@ class Navbar extends Component {
                 <nav>
                     <div className="nav-wrapper white ">
                         <div className="container navbar">
-                            <img src="http://via.placeholder.com/150x64" alt="logo" className="left"/>
+                            <img src="http://via.placeholder.com/150x64" alt="logo" className="left responsive-img hide-on-med-and-down"/>
                             {/* <Link to={`${this.state.match.url}/`} className="left brand-logo">LOGO</Link> */}
-                            <a href="#!" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
+                            <a href="#!" data-activates="mobile-demo" className="button-collapse"><i className="material-icons black-text">menu</i></a>
                             <ul className="right hide-on-med-and-down">
                                 <li><Link to={`${this.state.match.url}/`} >Home</Link></li>
                                 <li><Link to={`${this.state.match.url}/about-us`}>About us</Link></li>
