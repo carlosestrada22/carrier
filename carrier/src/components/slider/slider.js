@@ -12,10 +12,10 @@ class Slider extends Component {
     render() {
         return (
             <div className="carousel carousel-slider ">
-                <a className="carousel-item" href="#one!"><img src="https://lorempixel.com/1920/1080/food/1" /></a>
-                <a className="carousel-item" href="#two!"><img src="https://lorempixel.com/1920/1080/food/2" /></a>
-                <a className="carousel-item" href="#three!"><img src="https://lorempixel.com/1920/1080/food/3" /></a>
-                <a className="carousel-item" href="#four!"><img src="https://lorempixel.com/1920/1080/food/4" /></a>
+                <a className="carousel-item" href="#one!"><img src="http://via.placeholder.com/1920x720" alt="" /></a>
+                <a className="carousel-item" href="#two!"><img src="https://lorempixel.com/1920/1080/food/2" alt="" /></a>
+                <a className="carousel-item" href="#three!"><img src="https://lorempixel.com/1920/1080/food/3" alt="" /></a>
+                <a className="carousel-item" href="#four!"><img src="https://lorempixel.com/1920/1080/food/4" alt="" /></a>
             </div>
         );
     }

@@ -6,7 +6,7 @@ import 'materialize-css/js/cards.js';
 import 'materialize-css/js/animation.js';
 import 'materialize-css/js/dropdown.js';
 import 'materialize-css/js/sideNav.js';
-
+import './palette.css'
 import './App.css';
 //views
 // import Layout from './views/layout.js'
