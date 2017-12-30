@@ -19,7 +19,7 @@ class Navbar extends Component {
                             {/* <Link to={`${this.state.match.url}/`} className="left brand-logo">LOGO</Link> */}
                             <a href="#!" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                             <ul className="right hide-on-med-and-down">
-                                <li><Link to={`${this.state.match.url}/`} activeClassName="active">Home</Link></li>
+                                <li><Link to={`${this.state.match.url}/`} >Home</Link></li>
                                 <li><Link to={`${this.state.match.url}/about-us`}>About us</Link></li>
                                 <li><Link to={`${this.state.match.url}/carriers`}>Carriers</Link></li>
                                 <li><Link to={`${this.state.match.url}/enterprise`}>Enterprise</Link></li>
