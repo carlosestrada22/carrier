@@ -12,7 +12,7 @@ class ProductGrid extends Component {
                         <div className="col s12 m12">
                             <h2>Servicios</h2>
                         </div>
-                        {productos().map(producto => <Product name={producto.name} desc={producto.desc} />)}
+                        {productos().map(producto => <Product title={producto.title} sub={producto.sub} />)}
                     </div>
                 </div>
             </div>
@@ -26,8 +26,8 @@ const productos = () => {
     let arr = []
     for (let i = 0; i < 6; i++)
         arr.push({
-            name: `Servicio ${i}`,
-            desc: `Link ${i}`
+            title: `Servicio ${i}`,
+            sub: `Link ${i}`
         })
 
     return arr
