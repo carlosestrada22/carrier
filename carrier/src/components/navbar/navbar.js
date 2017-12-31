@@ -13,7 +13,7 @@ class Navbar extends Component {
         return (
             <div className="">
                 <nav>
-                    <div className="nav-wrapper white ">
+                    <div className="nav-wrapper default-primary-color">
                         <div className="container navbar">
                             <img src="http://via.placeholder.com/150x64" alt="logo" className="left responsive-img hide-on-med-and-down" />
                             {/* <NavLink to={`${this.state.match.url}/`} className="left brand-logo">LOGO</NavLink> */}
@@ -24,7 +24,7 @@ class Navbar extends Component {
                                 <li><NavLink to={`${this.state.match.url}/enterprises`} activeClassName='link-active'>Empresas<i className="material-icons right">business</i></NavLink></li>
                                 <li><NavLink to={`${this.state.match.url}/contact-us`} activeClassName='link-active'>Contact us <i className="material-icons right">email</i></NavLink></li>
                             </ul>
-                            <ul className="side-nav" id="mobile-demo">
+                            <ul className="side-nav black-text" id="mobile-demo">
                                 <li><NavLink to={`${this.state.match.url}/`}><i className="material-icons">home</i></NavLink></li>
                                 <li><NavLink to={`${this.state.match.url}/about-us`}>About us</NavLink></li>
                                 <li><NavLink to={`${this.state.match.url}/enterprises`} activeClassName='link-active'>Empresas<i className="material-icons right">business</i></NavLink></li>
