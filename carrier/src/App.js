@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import 'materialize-css/dist/css/materialize.css';
 import 'materialize-css/dist/js/materialize.js';
 import 'materialize-css/js/cards.js';
@@ -17,6 +17,7 @@ import Enterprise from './views/enterprise.js'
 import Packages from './views/packages.js'
 import PublicSector from './views/public-sector.js'
 import Home from './views/home.js';
+import NotFound from './components/404/404.js'
 
 import FixedButton from './components/fixed-button/fixed-button.js'
 import Navbar from './components/navbar/navbar.js'
@@ -30,15 +31,18 @@ class App extends Component {
       <div className="App">
         <Router>
           <div>
-          <Navbar $={$} />
+            <Navbar $={$} />
             <div className="main">
-              <Route exact path="/" component={Home} />
-              <Route path="/about-us" component={AboutUs} />
-              <Route path="/carriers" component={Carriers} />
-              <Route path="/contact-us" component={ContactUs} />
-              <Route path="/enterprise" component={Enterprise} />
-              <Route path="/packages" component={Packages} />
-              <Route path="/public-sector" component={PublicSector} />
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/about-us" component={AboutUs} />
+                <Route path="/carriers" component={Carriers} />
+                <Route path="/contact-us" component={ContactUs} />
+                <Route path="/enterprise" component={Enterprise} />
+                <Route path="/packages" component={Packages} />
+                <Route path="/public-sector" component={PublicSector} />
+                <Route component={NotFound} />
+              </Switch>
             </div>
             <FixedButton />
             <Footer />
