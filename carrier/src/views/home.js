@@ -12,11 +12,13 @@ class Home extends Component {
     render() {
         return (
             <div>
-                {/* <Slider /> */}
                 <ParallaxImg />
                 <Banner />
                 <Greet />
                 <ProducGrid />
+                <div className="container">
+                    <Slider />
+                </div>
                 {/* <Map /> */}
             </div>
         );

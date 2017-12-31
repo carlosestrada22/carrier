@@ -13,7 +13,7 @@ import './App.css';
 import AboutUs from './views/about-us.js'
 import Carriers from './views/carriers.js'
 import ContactUs from './views/contact-us.js'
-import Enterprise from './views/enterprise.js'
+import Enterprises from './views/enterprises.js'
 import Packages from './views/packages.js'
 import PublicSector from './views/public-sector.js'
 import Home from './views/home.js';
@@ -38,7 +38,7 @@ class App extends Component {
                 <Route path="/about-us" component={AboutUs} />
                 <Route path="/carriers" component={Carriers} />
                 <Route path="/contact-us" component={ContactUs} />
-                <Route path="/enterprise" component={Enterprise} />
+                <Route path="/enterprises" component={Enterprises} />
                 <Route path="/packages" component={Packages} />
                 <Route path="/public-sector" component={PublicSector} />
                 <Route component={NotFound} />

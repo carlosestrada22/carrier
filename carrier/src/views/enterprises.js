@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Enterprise extends Component {
+class Enterprises extends Component {
     state = {  }
     render() {
         return (
@@ -11,4 +11,4 @@ class Enterprise extends Component {
     }
 }
 
-export default Enterprise;
+export default Enterprises;
