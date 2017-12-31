@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 const FixedButton = () => {
     return (
         <div class="fixed-action-btn horizontal">
-            <a class="btn-floating btn-large red">
+            <a class="btn-floating btn-large accent-color">
                 <i class="large material-icons">share</i>
             </a>
             <ul>
