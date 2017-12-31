@@ -6,6 +6,7 @@ import Banner from '../components/banner/banner.js'
 import Greet from '../components/greet/greet.js'
 import ProducGrid from '../components/product-grid/product-grid.js'
 import ParallaxImg from '../components/parallax-img/parallax-img.js'
+import Features from '../components/features/features.js'
 
 class Home extends Component {
     state = {}
@@ -14,6 +15,7 @@ class Home extends Component {
             <div>
                 <ParallaxImg />
                 <Banner />
+                <Features />
                 <Greet />
                 <ProducGrid />
                 <div className="container">
