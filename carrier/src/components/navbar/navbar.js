@@ -19,22 +19,16 @@ class Navbar extends Component {
                             {/* <NavLink to={`${this.state.match.url}/`} className="left brand-logo">LOGO</NavLink> */}
                             <a href="#!" data-activates="mobile-demo" className="button-collapse"><i className="material-icons black-text">menu</i></a>
                             <ul className="right hide-on-med-and-down">
-                                <li><NavLink to={`${this.state.match.url}/`} >Home</NavLink></li>
+                                <li><NavLink to={`${this.state.match.url}/`} ><i className="material-icons">home</i></NavLink></li>
                                 <li><NavLink to={`${this.state.match.url}/about-us`} activeClassName='link-active'>About us</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/carriers`} activeClassName='link-active'>Carriers</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/enterprise`} activeClassName='link-active'>Enterprise</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/packages`} activeClassName='link-active'>Packages</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/public-sector`} activeClassName='link-active'>Public sector</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/contact-us`} activeClassName='link-active'>Contact us</NavLink></li>
+                                <li><NavLink to={`${this.state.match.url}/enterprises`} activeClassName='link-active'>Empresas<i className="material-icons right">business</i></NavLink></li>
+                                <li><NavLink to={`${this.state.match.url}/contact-us`} activeClassName='link-active'>Contact us <i className="material-icons right">email</i></NavLink></li>
                             </ul>
                             <ul className="side-nav" id="mobile-demo">
-                                <li><NavLink to={`${this.state.match.url}/`}>Home</NavLink></li>
+                                <li><NavLink to={`${this.state.match.url}/`}><i className="material-icons">home</i></NavLink></li>
                                 <li><NavLink to={`${this.state.match.url}/about-us`}>About us</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/carriers`}>Carriers</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/enterprise`}>Enterprise</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/packages`}>Packages</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/public-sector`}>Public sector</NavLink></li>
-                                <li><NavLink to={`${this.state.match.url}/contact-us`}>Contact us</NavLink></li>
+                                <li><NavLink to={`${this.state.match.url}/enterprises`} activeClassName='link-active'>Empresas<i className="material-icons right">business</i></NavLink></li>
+                                <li><NavLink to={`${this.state.match.url}/contact-us`} activeClassName='link-active'>Contact us <i className="material-icons right">email</i></NavLink></li>
                             </ul>
                         </div>
                     </div>
